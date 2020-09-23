@@ -7,7 +7,7 @@ export class StudentService {
     private students: Student[] = [];
 
     constructor(
-        @Optional() private schoolService: SchoolClassService,
+        private schoolService: SchoolClassService,
         // @Optional() @Inject("Roni") roni: object
     ) {
 

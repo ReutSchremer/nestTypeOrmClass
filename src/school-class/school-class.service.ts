@@ -13,7 +13,7 @@ export class SchoolClassService {
         this.classes[1] = { grade: 2, classIndex: 2 }
         this.classes[2] = { grade: 1, classIndex: 2 }
 
-        console.log("const")
+        console.log("const");
     }
 
     createNewClass(newClass: SchoolClass): "GREAT!" | "Not great" {

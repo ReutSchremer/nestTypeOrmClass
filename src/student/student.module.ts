@@ -5,8 +5,8 @@ import { SchoolClassModule } from 'src/school-class/school-class.module';
 import { SchoolClassService } from 'src/school-class/school-class.service';
 
 @Module({
-  imports: [SchoolClassModule],
-  providers: [StudentService],
+  // imports: [SchoolClassModule],
+  providers: [StudentService, SchoolClassService],
   controllers: [StudentController]
 })
 export class StudentModule { }
